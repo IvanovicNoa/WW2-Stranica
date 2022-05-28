@@ -16,6 +16,10 @@
   background: black;
 }
 
+body {
+  background-color: #191919;
+}
+
 .navbar {
   background-color: black;
   height: 80px;
@@ -48,7 +52,7 @@
 header {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),
-    url("../Slike/wwii-war-crime-india-01_16x9.webp");
+    url("../Slike/GettyImages-2694757-cbf5f93.jpg");
   background-position: bottom;
   background-size: cover;
   display: flex;
@@ -80,37 +84,127 @@ header {
   margin-bottom: 30px;
 }
 
-.osnovno1 {
-  width: 100%;
-  padding: 100px 0px;
+.posljedice-holocaust {
   background-color: #191919;
+  width: 100%;
 }
-.osnovno1 img {
-  height: auto;
-  width: 430px;
-}
-.tekst {
-  width: 550px;
-}
-.osnovno {
-  width: 1130px;
+
+.holocaust {
+  display: flex;
+  width: 80%;
   max-width: 95%;
   margin: 0 auto;
-  display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.tekst h2 {
-  color: white;
+
+.tekst-holocaust {
+  width: 550px;
+}
+.tekst-holocaust h2 {
+  color: red;
   font-size: 75px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
 
-.tekst p {
-  color: #fcfc;
+.tekst-holocaust p {
+  color: white;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
+}
+
+.slika-holocaust {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.posljedice-uništenja {
+  background-color: #191919;
+  width: 100%;
+}
+
+.uništenja {
+  display: flex;
+  width: 80%;
+  max-width: 95%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tekst-uništenja {
+  width: 550px;
+}
+.tekst-uništenja h2 {
+  color: red;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.tekst-uništenja p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.slika-uništenja {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.posljedice-dekolonizacija {
+  background-color: #191919;
+  width: 100%;
+}
+
+.dekolonizacija {
+  display: flex;
+  width: 80%;
+  max-width: 95%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tekst-dekolonizacija {
+  width: 550px;
+}
+.tekst-dekolonizacija h2 {
+  color: red;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.tekst-dekolonizacija p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.slika-dekolonizacija {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.scroll {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 5s ease;
+}
+
+.scroll.active {
+  transform: translateY(0px);
+  opacity: 1;
 }

@@ -16,6 +16,10 @@
   background: black;
 }
 
+body {
+  background-color: #191919;
+}
+
 .navbar {
   background-color: black;
   height: 80px;
@@ -81,36 +85,126 @@ header {
 }
 
 .osnovno1 {
-  width: 100%;
-  padding: 100px 0px;
   background-color: #191919;
+  width: 100%;
 }
-.osnovno1 img {
-  height: auto;
-  width: 430px;
-}
-.tekst {
-  width: 550px;
-}
+
 .osnovno {
-  width: 1130px;
+  display: flex;
+  width: 80%;
   max-width: 95%;
   margin: 0 auto;
-  display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.tekst h2 {
-  color: white;
+
+.tekst-osnovno {
+  width: 550px;
+}
+.tekst-osnovno h2 {
+  color: red;
   font-size: 75px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
 
-.tekst p {
-  color: #fcfc;
+.tekst-osnovno p {
+  color: white;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
+}
+
+.slika-osnovno {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.osnovno2 {
+  background-color: #191919;
+  width: 100%;
+}
+
+.uzrok {
+  display: flex;
+  width: 80%;
+  max-width: 95%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tekst-uzrok {
+  width: 550px;
+}
+.tekst-uzrok h2 {
+  color: red;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.tekst-uzrok p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.slika-uzrok {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.osnovno3 {
+  background-color: #191919;
+  width: 100%;
+}
+
+.ulog {
+  display: flex;
+  width: 80%;
+  max-width: 95%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tekst-ulog {
+  width: 550px;
+}
+.tekst-ulog h2 {
+  color: red;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.tekst-ulog p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.slika-ulog {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 800px;
+}
+
+.scroll {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 5s ease;
+}
+
+.scroll.active {
+  transform: translateY(0px);
+  opacity: 1;
 }

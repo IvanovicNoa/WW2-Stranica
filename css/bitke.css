@@ -48,7 +48,7 @@
 header {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),
-    url("../Slike/5a76a04ddd484a4c008b4f20.webp");
+    url("../Slike/ww2-anniversary-legacy-berlin_16x9.webp");
   background-position: bottom;
   background-size: cover;
   display: flex;
@@ -78,39 +78,4 @@ header {
   font-size: 7vmin;
   margin-top: 50px;
   margin-bottom: 30px;
-}
-
-.osnovno1 {
-  width: 100%;
-  padding: 100px 0px;
-  background-color: #191919;
-}
-.osnovno1 img {
-  height: auto;
-  width: 430px;
-}
-.tekst {
-  width: 550px;
-}
-.osnovno {
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.tekst h2 {
-  color: white;
-  font-size: 75px;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-}
-
-.tekst p {
-  color: #fcfc;
-  letter-spacing: 1px;
-  line-height: 28px;
-  font-size: 18px;
-  margin-bottom: 45px;
 }
