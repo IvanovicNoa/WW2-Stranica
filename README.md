@@ -1,3 +1,3 @@
-# <<<<<<< HEAD
+Školski projekt - kreiranje web stranice.
 
-Gotova stranica
+Stranica o Drugom svjetskom ratu.
